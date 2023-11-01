@@ -1,3 +1,10 @@
+/*
+Suppose the input string is 1210 this means it has 1 number of 0, 2 1's, only 1 2...that means the character in each index represents the count of that index 
+digit in that number. If this happens then the number is Autobiographical number. If it is, return the number of distinct digits in the given string.
+
+If not return false.
+
+*/
 import java.util.*;
 public class Autobiography
 {
