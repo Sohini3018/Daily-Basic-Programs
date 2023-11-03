@@ -20,7 +20,7 @@ public class CamelCaseString
 	{
 	    for(int i = 0;i < s.length();i++)
 	    {
-	        if(s.charAt(i) >= 'A' && s.charAt(i) <= 'Z')
+	        if(s.charAt(i) >= 'A' && s.charAt(i) <= 'Z')  // if(Character.isUpperCase()) --> we can use this 
 	        {
 	            System.out.println();
 	            System.out.print(Character.toLowerCase(s.charAt(i)));
