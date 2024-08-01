@@ -79,6 +79,8 @@ class Solution {
         for(int i = 1; i <= nums.length; i++) {
             actual_xor = actual_xor ^ i;
         }
+        // try to use this in single loop
+        // O(2n) --> O(n)
 
         return (arr_xor ^ actual_xor);
     }
